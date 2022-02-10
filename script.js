@@ -13,5 +13,15 @@ function randIndexGenerator (arr) {
     return randIndex;
 }
 
+//Link each random Index for easy calling
+let bandIndex = randIndexGenerator(bandArr);
+let songIndex = randIndexGenerator(songArr);
+let quoteIndex = randIndexGenerator(quoteArr)
+
+//Link each random piece of info for easy calling
+
+let randBand= bandArr[bandIndex]
+let randSong= songArr[]
+
 
 console.log(`To quote from ${}`)
