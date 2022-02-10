@@ -1,2 +1,0 @@
-#Mixed Messages CodeCademy Project
-----------------------------------
