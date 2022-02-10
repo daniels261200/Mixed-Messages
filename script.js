@@ -21,7 +21,7 @@ let quoteIndex = randIndexGenerator(quoteArr)
 //Link each random piece of info for easy calling
 
 let randBand= bandArr[bandIndex]
-let randSong= songArr[]
+let randSong= songArr[songIndex]
+let randQuote= quoteArr[quoteIndex]
 
-
-console.log(`To quote from ${}`)
+console.log(`To quote from ${randBand}'s ${randSong} "${quoteArr}".`)
