@@ -78,7 +78,7 @@ let quoteArr=[
 
 //Function to generate a random Index based on the given array length
 function randIndexGenerator (arr) {
-    let randIndex = Math.floor(Math.random * arr.lenght);
+    let randIndex = Math.floor(Math.random() * arr.length);
     return randIndex;
 };
 
@@ -87,10 +87,22 @@ let bandIndex = randIndexGenerator(bandArr);
 let songIndex = randIndexGenerator(songArr);
 let quoteIndex = randIndexGenerator(quoteArr);
 
+
+//Checking Indexes
+//console.log(bandIndex);
+//console.log(songIndex);
+//console.log(quoteIndex);
+
 //Link each random piece of info for easy calling
 
-let randBand= bandArr[bandIndex];
-let randSong= songArr[songIndex];
-let randQuote= quoteArr[quoteIndex];
+const randBand= bandArr[bandIndex];
+const randSong= songArr[songIndex];
+const randQuote= quoteArr[quoteIndex];
 
-console.log(`To quote from ${randBand}'s ${randSong} "${quoteArr}".`);
+console.log(`To quote from ${randBand}'s ${randSong} "${randQuote}".`);
+
+
+//Checking variables
+//console.log(randBand);
+//console.log(randSong);
+//console.log(randQuote);
